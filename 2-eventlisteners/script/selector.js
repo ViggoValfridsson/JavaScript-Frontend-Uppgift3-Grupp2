@@ -1,20 +1,26 @@
-// DOM Manipulation
-// --------------------------
-// 1. getElementById()
+// Eventlistener
 
-// 2. getElementsByClassName()
+let button = document.getElementsByTagName('button');
 
-// 3. getElementByTagName()
+function popUp() {
+    alert("Hello nr 2");
+}
 
-// 4. querySelector()
+button[1].addEventListener("click", popUp);
 
-// 5. querySelectorAll()
+// ------------------
+let div = document.getElementsByTagName('div');
 
+function changeBackColor(){
+    div[3].style.backgroundColor = "rgb(255, 255, 255)";
+}
 
-// Navigera i DOM
-// --------------------------
-// 6. Föräldranoder (parentNode, parentElement)
+div[3].addEventListener("mouseover", changeBackColor);
 
-// 7. Barnnoder (children, childNode, first[] last[] Child/ElementChild)
+function remove(){
+    div[3].removeEventListener("mouseover", changeBackColor);
+}
 
-// 8. Syskonnoder (previous[] next[] Sibling ElementSibling)
+let btn = document.getElementsByClassName('trams');
+console.log(btn);
+btn.addEventListener("click", remove);
