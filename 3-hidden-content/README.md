@@ -1,4 +1,4 @@
-#2 Hide and show content
+# 3) Hide and show content
 
 1. 
 2. 

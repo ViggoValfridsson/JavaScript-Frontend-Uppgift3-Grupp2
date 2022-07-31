@@ -1,4 +1,4 @@
-# DOM | Manipulation and navigation
+# 1) DOM | Manipulation and navigation
 ## DOM Manipulation
 1. document.getElementById()
 2. document.getElementsByClassName()

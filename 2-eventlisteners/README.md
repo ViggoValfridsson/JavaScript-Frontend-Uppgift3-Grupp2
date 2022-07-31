@@ -1,4 +1,4 @@
-# 2 Exercises eventlisteners
+# 2) Exercises eventlisteners
 
 1. An inline event listener (onClick) with alert, prompt & confirm
 2. An external event listener (click)
