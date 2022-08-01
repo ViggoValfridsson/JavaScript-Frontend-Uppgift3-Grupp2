@@ -8,49 +8,42 @@ body {
     background-color: rgb(77, 86, 86);
 }
 
-
-.flex-container {
+.flex-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     justify-content: center;
-    padding: 25px;;
+    border: 1px dotted red;
 }
 
-.flex-container > div {
-    background-color: rgba(255, 255, 255,0.5);
-    border-radius: 10px;
-    flex: 33%;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+.flex-box > div {
+    border: 1px solid green;
+    margin: 1rem;
+    align-self: stretch;
 }
 
-h1, h2, h3, p, ul {
+.flex-box .flex-selected {
+    align-self: center;
+}
+
+h1, p {
     font-family: roboto;
-}
-
-h1, h2, h3, p {
-    color:rgb(77, 86, 86);
-}
-
-
-h1 {
-    padding: 1rem;
     color: white;
 }
 
-h2 {
-    font-size: 26px;
-    margin: 3vh 0 3vh 0;
+p {
+    margin: 12px;
+}
+
+.hidden-content {
+    display: none;
 }
 
 button {
-    margin-bottom: 16px;
     padding: 6px 14px;
     border-radius: 6px;
-    border: 1px solid color rgb(77, 86, 86);
-    background-color: rgba(0, 0, 0, 0);
-    color:rgb(77, 86, 86);
+    border: 1px solid white;
+    background-color: rgba(117, 117, 117,0);
+    color:white;
  }
 
  @media only screen and (max-width: 400px) {

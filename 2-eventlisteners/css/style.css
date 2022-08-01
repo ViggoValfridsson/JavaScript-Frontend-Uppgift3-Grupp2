@@ -25,11 +25,11 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, p, ul {
+h1, h2 {
     font-family: roboto;
 }
 
-h1, h2, h3, p {
+h1, h2 {
     color:rgb(77, 86, 86);
 }
 
@@ -48,7 +48,7 @@ button {
     margin-bottom: 16px;
     padding: 6px 14px;
     border-radius: 6px;
-    border: 1px solid color rgb(77, 86, 86);
+    border: 1px solid rgb(77, 86, 86);
     background-color: rgba(0, 0, 0, 0);
     color:rgb(77, 86, 86);
  }
