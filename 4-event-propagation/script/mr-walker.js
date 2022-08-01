@@ -1,0 +1,3 @@
+/*  Event propagation - a walker
+    -----------------------
+*/
