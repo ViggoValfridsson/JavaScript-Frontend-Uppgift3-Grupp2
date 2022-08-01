@@ -1,25 +1,7 @@
 /*  Hide and show content
     -----------------------
-    1.
-    2.
-    3.
+    1. undersökning av html/css för att ta reda på på selektorer
+    2. placering av aktuella selektorer i var sin variabel (querySelecor)
+    3. skapande av en if-sats, där korrekt selektor läggs till/tas bort beronde på knappens status
+    4. tillägg av eventistener till knappen (click)
 */
-
-let btn = document.querySelector('btn-sesame');
-let text = document.querySelector('.hidden-content');
-
-console.log(btn)
-
-function ShowText()
-{
-    if (text.classList.contains('btn'))
-    {
-        text.classList.remove('btn');
-    }
-    else
-    {
-        text.classList.add('btn');
-    }
-}
-
-btn.addEventListener('click', ShowText);
