@@ -4,7 +4,6 @@
 
 body {
     height: 100vh;
-    background: url("../img/pexels-pixabay-235615.jpg") no-repeat center center/ cover;
 }
 
 header {
@@ -19,19 +18,19 @@ header {
 
 .flex-container {
     display: flex;
-    height: 80vh;
+    height: 1400px;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    background: url("../img/pexels-pixabay-235615.jpg") no-repeat center center/ cover;
 }
 
 /* FAQ */
 
 .accordian {
+    margin: 30px 20px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 85%;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.85);
     border: 1px solid rgb(87, 87, 87);
@@ -49,6 +48,7 @@ header {
     cursor: pointer;
     border-bottom: 1px solid black;
     position: relative;
+    transition: 0.5s;
 }
 
 .accordian .accordian-container .answer {
@@ -63,19 +63,21 @@ header {
     content: "+";
     position: absolute;
     right: 0px;
+    transition: .5s;
 }
-       /* Trigger change with JS-styling*/
+       /* Trigger change with JS-styling; classList.toggle()*/
 .accordian .accordian-container.active .answer {
-    height: 160px;
+    height: 70px;
+    overflow: auto;
 }
 
-        /* Trigger change with JS-styling */ 
+        /* Trigger change with JS-styling; classList.toogle()*/ 
 .accordian .accordian-container.active .question {
     font-size: 14px;
     transition: .5s;
 }
 
-        /* Trigger change with JS-styling */
+        /* Trigger change with JS-styling; classList.toggle() */
 .accordian .accordian-container.active .question::after {
     content: "-";
     transition: .5s;
@@ -84,10 +86,10 @@ header {
 /* Timer */
 
 .counter-container {
+    margin: 30px 20px 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
     height: 200px;
     background-color: rgba(255, 255, 255, 0.85);
     border: 1px solid rgb(87, 87, 87);
