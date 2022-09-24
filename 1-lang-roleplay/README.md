@@ -1,8 +1,8 @@
-# 2) JSFE lang | a small roleplay
+# 2) JSFE lang | a small role playing game
 
 filename: 1-lang-roleplay
 
-## A small roleplay
+## A small role playing game (rpg)
 
 Purpose/course objectives
 

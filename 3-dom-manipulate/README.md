@@ -1,8 +1,8 @@
-# 3) JSFE DOM | change dom-content dynamically (a blog)
+# 3) JSFE DOM | change dom-content dynamically
 
 filename: 3-dom-manipulate
 
-## Heading
+## A blog-starter
 
 Purpose/course objectives:
 
