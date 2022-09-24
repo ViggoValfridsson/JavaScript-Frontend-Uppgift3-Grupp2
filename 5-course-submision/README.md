@@ -2,9 +2,13 @@
 
 path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/5-course-submision>
 
-## Course submission (examining/grading)
+## Course submission
 
-Purpose/course objectives:
+An examining/grading submission for the course JavaScript Frontend. Program Webbutvecklare inom .NET.
+
+EC Utbildning, Halmstad and Göteborg.
+
+### Purpose/course objectives
 
 "Be able to independently produce interactive web applications with JavaScript in a secure manner and according to good programming practice".
 
@@ -21,9 +25,9 @@ Which includes:
 9. Code free of obvious bugs
 10. Tests have been used where appropriate
 
-## Task description: A frontend app
+## Task description - A frontend app
 
-The objective of the submission is, from an optional open api, to create a foundation for a dynamically controlled web page; like a web shop. The application should display "products" in a gallery, taken from at selected api.
+The objective of the submission is, from an optional open api, to create a foundation for a dynamically controlled web page; similar to a web shop. The application should display "products" in a gallery, taken from at selected api.
 
 The "web shop" does not necessarily have to sell anything, but the user **must** be able to add products to a shopping cart or a todo-list, from which the user can see the added items, the number, possibly the price, etc, as well as add and remove content from the shopping cart. Optional: the shopping cart should remain even if the page is refreshed.
 
@@ -70,6 +74,8 @@ Yes, but it´s then up to the group to ensure that the goals of the course are c
 > The entire task must be handing in at Omniway, by compressing the root folder (zip/rar). Note that all members of the group each must submit their own copy of the project! Also, any written tasks (except logbook and readme) and submission questions that belong to the task are answered in Omniway.
 
 ## Wireframes
+
+The following wireframes are only suggestions to get you started on the task. Following them is optional.
 
 ### Start
 

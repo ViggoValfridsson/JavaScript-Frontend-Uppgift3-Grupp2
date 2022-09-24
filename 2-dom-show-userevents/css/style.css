@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: url("../img/pexels-pixabay-235615.jpg") no-repeat center center/ cover;
+}
+
+header {
+    background-color: rgba(95, 158, 160, 0.85);
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    box-shadow: 0 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FAQ */
+
+.accordian {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.h2-faq {
+    margin-bottom: 20px;
+}
+
+.accordian .accordian-container .question {
+    font-size: 20px;
+    padding: 18px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.accordian .accordian-container .answer {
+    padding: 20px 15px 0 15px;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.accordian .accordian-container .question::after {
+    content: "+";
+    position: absolute;
+    right: 0px;
+}
+       /* Trigger change with JS-styling*/
+.accordian .accordian-container.active .answer {
+    height: 160px;
+}
+
+        /* Trigger change with JS-styling */ 
+.accordian .accordian-container.active .question {
+    font-size: 14px;
+    transition: .5s;
+}
+
+        /* Trigger change with JS-styling */
+.accordian .accordian-container.active .question::after {
+    content: "-";
+    transition: .5s;
+}
+
+/* Timer */
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.h2-counter {
+    padding: 30px;
+}
+
+#timer {
+    width: 100px;
+    font-size: 2rem;
+}
+
+button {
+    margin: 0 0.5rem;
+    border-color: lightgray;
+}
+
+#btn-start-stop {
+    background-color: darkolivegreen;
+}
+
+#btn-reset {
+    background-color: lightcoral;
+}
+
+#btn-pause {
+    background-color: darkorange;
+}
