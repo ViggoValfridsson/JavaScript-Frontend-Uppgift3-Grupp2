@@ -19,7 +19,7 @@ Key concepts
 - if statements
 - this
 - toString()
-- inneHTML
+- innerHTML
 - classList.toggle()
 
 ## Exercise description - A FAQ and a timer
