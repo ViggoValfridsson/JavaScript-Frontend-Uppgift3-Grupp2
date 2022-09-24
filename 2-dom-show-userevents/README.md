@@ -1,6 +1,6 @@
 # 2) JSFE DOM | handling dom-elements and events
 
-filename: 2-dom-show-userevents
+path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/2-dom-show-userevents>
 
 ## Handling DOM-element and user events
 
@@ -15,8 +15,7 @@ Key concepts
 - document.querySelector()
 - document.getElementById()
 - addEventListener()
-- for-loop
-- if statements
+- iterations (loops)
 - this
 - toString()
 - innerHTML
@@ -24,7 +23,7 @@ Key concepts
 
 ## Exercise description - A FAQ and a timer
 
-The objective of the exercise submission is to use DOM to reach and manipulate content, and to investigate how JS contol structures can be used to dynamically change the content of a page.
+The objective of the exercise is to use DOM to reach and manipulate content, and to investigate how JS contol structures can be used to dynamically change the content of a page.
 
 You should use an accordian to show and hide content, when a user click on the plus-sign. In addition, you will also make the counter start, pause and stop on user interaction.
 

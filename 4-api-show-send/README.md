@@ -1,6 +1,6 @@
 # 4) JSFE API | download and send data to a server
 
-path: 4-api-show-send
+path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/4-api-show-send>
 
 The aim of the exercise is to understand ...
 

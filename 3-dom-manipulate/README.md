@@ -1,6 +1,6 @@
 # 3) JSFE DOM | change dom-content dynamically
 
-filename: 3-dom-manipulate
+path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/3-dom-manipulate>
 
 The aim of the exercise is to understand ...
 

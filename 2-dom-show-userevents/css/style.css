@@ -7,13 +7,10 @@ body {
 }
 
 header {
-    background-color: rgba(95, 158, 160, 0.85);
     height: 200px;
     line-height: 200px;
     text-align: center;
-    color: white;
     border-bottom: 1px solid rgb(87, 87, 87);
-    box-shadow: 0 0 10px;
 }
 
 .flex-container {
