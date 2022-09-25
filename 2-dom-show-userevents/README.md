@@ -2,9 +2,7 @@
 
 path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/2-dom-show-userevents>
 
-## Handling DOM-element and user events
-
-Purpose/course objectives:
+## Purpose/course objectives
 
 1. "Change web page content dynamically".
 2. "Be able to explain how to dynamically change the content of a page".
@@ -25,7 +23,11 @@ Key concepts
 
 The objective of the exercise is to use DOM to reach and manipulate content, and to investigate how JS contol structures can be used to dynamically change the content of a page.
 
-You should use an accordian to show and hide content, when a user click on the plus-sign. In addition, you will also make the counter start, pause and stop on user interaction.
+We will use an accordian to show and hide content, when a user click on the plus-sign. In addition, you will also make the counter start, pause and stop on user interaction.
+
+The timer is a little bigger task, and will have around 60-90 rows of code depending on the solution. Here the trick is to use functions and slektions. You also will need something that starts the timer, and to do that you can use the [setInterval() funtion](https://www.w3schools.com/jsref/met_win_setinterval.asp) together with [clearInterval()](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_clearinterval).
+
+... and no, you can´t actually start/stop html-content, so we have to switch the html-numbers of the clock with the use of JS-variables and innerHTML.
 
 ## Additional general instructions
 

@@ -2,15 +2,11 @@
 
 path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/1-lang-roleplay>
 
-## A small role playing game (rpg)
-
-Purpose/course objectives
+## Purpose/course objectives
 
 1. "Be able to explain JavaScript and its syntax, how to debug and handle errors in the code".
 
-The objective of the exercise is to investigate how variables, JS contol structures and objects can be used to dynamically change the content of a page.
-
-In addition, you will also get the chance to use some of Window Consoles functions, often used to debug and handle errors in the code
+The objective of the exercise is to investigate how variables, JS contol structures and objects can be used to dynamically change the content of a page. In addition, you will also get the chance to use some of Window Consoles functions, often used to debug and handle errors in the code.
 
 ### Key concepts
 
@@ -26,19 +22,7 @@ In addition, you will also get the chance to use some of Window Consoles functio
   - .table()
   - .info()
 
-### Math.random()
-
-To get at random number (can be used to make things less predictible)
-
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-console.log(getRandomInt(3)); // output: 0, 1 or 2
-console.log(getRandomInt(1)); // output: 0
-console.log(Math.random());   // output: a decimal number from 0 to < 1
-
-## Exercise description - A mini role playing game
+## Exercise description - A mini role playing game (rpg)
 
 You will create a small story, the protagonists of which are two heroes.
 
@@ -50,7 +34,7 @@ Use functions for some specific events, such as displaying the status of the cha
 
 This time it is enough to show the history using console.log() in the terminal, but you are of course free to also try to make an html/css interface.
 
-The story can start like this:
+### Suggestion on how to start the the story
 
 const percival = {
   health: 30,
@@ -89,7 +73,19 @@ function attack(target) {
   }
 }
 
-PS. To deepen the task: Creating a class of characters is even better, making it super easy to create new characters. Even monsters are characters, and since the heroes likely encounter many of them on their journey, classes make it convenient to have a single place to create all kinds of characters.
+PS. To deepen the task: Creating a class (not the same ass CSS-classes) of characters is even better, making it super easy to create new characters. Even monsters are characters, and since the heroes likely encounter many of them on their journey, classes make it convenient to have a single place to create all kinds of characters.
+
+### Math.random()
+
+To get at random number (can be used to make things less predictible)
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomInt(3)); // output: 0, 1 or 2
+console.log(getRandomInt(1)); // output: 0
+console.log(Math.random());   // output: a decimal number from 0 to < 1
 
 ## Additional general instructions
 

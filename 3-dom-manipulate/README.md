@@ -2,15 +2,21 @@
 
 path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/3-dom-manipulate>
 
-The aim of the exercise is to understand ...
+The objective of the exercise is to further investigate how JS contol structures can be used to dynamically change the content of a page. And taking care of user events.
 
-Purpose/course objectives:
+## Purpose/course objectives:
 
 1. "Change web page content dynamically".
 2. "Be able to explain how to dynamically change the content of a page".
 3. "Be able to account for how events are handled by the user".
 
-## A blog-starter
+Key concepts
+
+- events
+
+## Exercise description - a blog-starter
+
+...
 
 ## Additional general instructions
 

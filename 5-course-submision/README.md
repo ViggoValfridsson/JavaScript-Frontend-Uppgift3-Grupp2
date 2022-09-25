@@ -27,9 +27,9 @@ Which includes:
 
 ## Task description - A frontend app
 
-The objective of the submission is, from an optional open api, to create a foundation for a dynamically controlled web page; similar to a web shop. The application should display "products" in a gallery, taken from at selected api.
+The objective of the submission is, from an optional open api, to create a foundation for a dynamically controlled web page; similar to a web shop.
 
-The "web shop" does not necessarily have to sell anything, but the user **must** be able to add products to a shopping cart or a todo-list, from which the user can see the added items, the number, possibly the price, etc, as well as add and remove content from the shopping cart. Optional: the shopping cart should remain even if the page is refreshed.
+The application should display "products" in a gallery, taken from at selected api. The "web shop" does not necessarily have to sell anything, but the user **must** be able to add products to a shopping cart or a todo-list, from which the user can see the added items, the number, possibly the price, etc, as well as add and remove content from the shopping cart. Optional: the shopping cart should remain even if the page is refreshed.
 
 The user **must** be able to trigger more web-api calls, to fill the page with more content from the api than what is showed at first visit. The page should not have to be reloaded, nor should you have to navigate to a new page.
 
@@ -69,7 +69,11 @@ Yes, but it´s then up to the group to ensure that the goals of the course are c
     - a README.[md], where the website/project is described
     - a written account of who did what, lika a a file called logbook.[md], or a GitHub project where everyone's contributions are clearly shown
 
-4. Each group must also be prepared to present their work to the rest of the class
+4. The group themselves decide what the website is aimed at, but it is recommended to focus on the business world or associations active in the business world. Examples can be various (fictitious) businesses, a trade association, or informative pages about a business concern.
+
+5. Feel free to use earlier created pages from previous exercises as a starting point. Reference to responsive templates such as w3.css, or frameworks are recommended.
+
+6. Each group must also be prepared to present their work to the rest of the class
 
 > The entire task must be handing in at Omniway, by compressing the root folder (zip/rar). Note that all members of the group each must submit their own copy of the project! Also, any written tasks (except logbook and readme) and submission questions that belong to the task are answered in Omniway.
 

@@ -2,16 +2,28 @@
 
 path: <https://github.com/Lars-S-Berg/js-fe-exercises/tree/main/4-api-show-send>
 
-The aim of the exercise is to understand ...
+The purpose with the exercise is to understand JSON, fetch data from a server and show it on a webpage, and use the posibility to send data.
 
-Purpose/course objectives:
+## Purpose/course objectives
 
-1. "Download and send data to the server".
-2. "Manage data in the browser".
+1. Be able to apply techniques to retrieve and send data to the server
+2. Be able to apply technology to manage data in the browser
 3. "Be able to explain how a user communicates with the server".
-4. "Be able to explain different options for managing data in the browser".
 
-## Download and send data to a server
+Key concepts
+
+- JSON
+- Callbacks
+- Promise
+- async/await
+- AJAX: fetch() and XMLHttpRequest
+- FormData
+- LocalStorage
+- Cookies
+
+## Exercise description
+
+AJAX technology shall be used to update only a part of the loaded webpage, without the need to update the rest of the content.
 
 ## Additional general instructions
 
