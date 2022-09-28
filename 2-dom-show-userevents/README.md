@@ -19,15 +19,16 @@ Key concepts
 - innerHTML
 - classList.toggle()
 
-## Exercise description - A FAQ and a timer
+## Exercise description - A menu and a FAQ-accordian
 
-The objective of the exercise is to use DOM to reach and manipulate content, and to investigate how JS contol structures can be used to dynamically change the content of a page.
+The objective of the exercise is to use DOM to reach and manipulate content, and to investigate how JS contol structures can be used to dynamically change the content of a page. The task involves creating two things
 
-We will use an accordian to show and hide content, when a user click on the plus-sign. In addition, you will also make the counter start, pause and stop on user interaction.
+1. a dynamically inserted menu
+2. an accordian that is supposed to be used for a frequently asked questions
 
-The timer is a little bigger task, and will have around 60-90 rows of code depending on the solution. Here the trick is to use functions and slektions. You also will need something that starts the timer, and to do that you can use the [setInterval() funtion](https://www.w3schools.com/jsref/met_win_setinterval.asp) together with [clearInterval()](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_clearinterval).
+The menu should only be inserted into the page through the link \<script src="scripts/blog.js"\>\<\/script\>. You should use a array where to place the content (text and links), and a loop to input the list-elements. Since we want the menu to show up on the page directly, we can use a recursive (a function that calls it self), like this: (function (){ code here }()); You can place and style the menu any way you like.
 
-... and no, you can´t actually start/stop html-content, so we have to switch the html-numbers of the clock with the use of JS-variables and innerHTML.
+I have already styled the accordian, and it is now up to you to show and hide the content, when a user click on the plus-sign to the right. As you can see in the html-code there is a short lorem ipusm hidden, and your task is to make it visible. And then again hide it if the user wants that.
 
 ## Additional general instructions
 

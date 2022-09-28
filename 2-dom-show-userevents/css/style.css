@@ -21,8 +21,6 @@ header {
     background: url("../img/pexels-pixabay-235615.jpg") no-repeat center center/ cover;
 }
 
-/* FAQ */
-
 .accordian {
     margin: 30px 20px 0 20px;
     display: flex;
@@ -78,51 +76,4 @@ header {
 .accordian .accordian-container.active .question::after {
     content: "-";
     transition: .5s;
-}
-
-/* Timer */
-
-.counter-container {
-    margin: 30px 20px 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 220px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgb(87, 87, 87);
-    border-radius: 5px;
-    box-shadow: 0 0 10px;
-}
-
-.h2-counter {
-    padding: 30px;
-}
-
-#timer {
-    margin-bottom: 20px;
-    width: 100px;
-    font-size: 2rem;
-}
-
-button {
-    width: 50px;
-    margin: 0 0.5rem;
-    border-color: lightgray;
-}
-
-#btn-start-stop {
-    background-color: darkolivegreen;
-    color: white;
-}
-
-#btn-pause {
-    background-color: darkorange;
-    color: white;
-}
-
-/* try to switch the start/stop button with a reset button when 
-the timer is ticking */
-#btn-reset {
-    background-color: lightcoral;
-    color: white;
 }
