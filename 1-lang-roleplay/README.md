@@ -89,7 +89,7 @@ console.log(Math.random());   // output: a decimal number from 0 to < 1
 
 ## Additional general instructions
 
-1. This is not an individual task, but that doesn´t exlude working with and take help from others.
+1. This is an individual task, but that doesn´t exlude working with and take help from others.
 
 2. It is highly recommende to use a personal GitHub reThe repository to store the progress
 
