@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="an exercise to manipulate DOM-elements">
-    <meta name="author" content="lars berg">
-    <meta name="keywords" content="a template for at exercise">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="an exercise to manipulate DOM-elements" />
+    <meta name="author" content="lars berg" />
+    <meta name="keywords" content="a template for at exercise" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>DOM | Manipulate</title>
     <script src="https://kit.fontawesome.com/fa41e523cd.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <h1>DOM | Manipulation</h1>
+      <h1>DOM | Manipulation</h1>
     </header>
     <main>
-        <div class="flex-container">
-            <div class="counter-container">
-                <h2 class="h2-counter">How long time will it take to read this information?</h2>
-                <div id="timer">
-                    00:00:00
-                </div>
-                <div class="buttons">
-                    <button id="btn-start-stop" type="button">
-                        <i class="fa-solid fa-play fa-2x"></i>
-                    </button>
-                    <button id="btn-reset" type="button">
-                        <i class="fa-solid fa-arrow-rotate-left fa-2x"></i>
-                    </button>
-                </div>
-            </div>
+      <div class="flex-container">
+        <div class="counter-container">
+          <h2 class="h2-counter">How long time will it take to read this information?</h2>
+          <div id="timer">00:00:00</div>
+          <div class="buttons">
+            <button id="btn-start-stop" type="button">
+              <i id="start-icon" class="fa-solid fa-play fa-2x"></i>
+              <i id="pause-icon" class="fa-solid fa-pause hidden"></i>
+            </button>
+            <button id="btn-reset" type="button">
+              <i class="fa-solid fa-arrow-rotate-left fa-2x"></i>
+            </button>
+            <label for="blog">Blog</label>
+            <input id="blog" type="number">
+          </div>
         </div>
+      </div>
     </main>
-    <footer>
-    </footer>
+    <footer></footer>
     <script src="scripts/blog.js"></script>
     <script src="scripts/timer.js"></script>
-</body>
-
+  </body>
 </html>
